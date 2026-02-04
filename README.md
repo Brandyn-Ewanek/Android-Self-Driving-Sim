@@ -55,5 +55,5 @@ $$Autonomy = (1 - \frac{\text{Interventions} \times 6}{\text{Elapsed Time}}) \ti
 
 ## 👤 Author
 **Brandyn Ewanek**
-* [LinkedIn](https://www.linkedin.com/in/brandyn-ewanek/)
-* [Portfolio](https://brandynewanek.github.io/)
+* [LinkedIn](https://www.linkedin.com/in/brandyn-ewanek-9733873b/)
+* [Portfolio](https://github.com/Brandyn-Ewanek/)
