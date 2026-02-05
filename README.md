@@ -11,7 +11,7 @@ The system consists of two parts:
 1.  **Training (Cloud):** A Convolutional Neural Network (CNN) trained on the "Jungle" dataset (center/left/right camera views) to predict steering angles.
 2.  **Inference (Edge):** A native Android app (Kotlin) that processes a live video feed, runs the quantized TFLite model, and visualizes the autonomous steering commands in real-time.
 
-![App Interface](assets1/driving-sim-dash.jpg)
+![App Interface](assets/driving-sim-dash.jpg)
 
 ## 🛠️ Tech Stack & Architecture
 * **Model Architecture:** Custom CNN (Cropping2D -> 3x Convolutional Blocks -> Dense Regression Head).
