@@ -1,0 +1,36 @@
+[versions]
+agp = "8.5.0"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+androidxJunit = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+# Using the specific version needed for your model
+tensorflowLite = "2.16.1"
+#tensorflowLiteSupport = "0.4.4"
+googleAiEdgeLitert = "1.4.1"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidxJunit" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+# TENSORFLOW LIBRARIES
+# We define them clearly here
+#tensorflow-lite-gpu = { group = "org.tensorflow", name = "tensorflow-lite-gpu", version.ref = "tensorflowLite" }
+#tensorflow-lite-select-tf-ops = { group = "org.tensorflow", name = "tensorflow-lite-select-tf-ops", version.ref = "tensorflowLite" }
+# Adding the base library explicitly as well to be safe
+#tensorflow-lite = { group = "org.tensorflow", name = "tensorflow-lite", version.ref = "tensorflowLite" }
+#tensorflow-lite-support = { group = "org.tensorflow", name = "tensorflow-lite-support", version.ref = "tensorflowLiteSupport" }
+#tensorflow-lite-task-base = { group = "org.tensorflow", name = "tensorflow-lite-task-base", version.ref = "tensorflowLiteSupport" }
+google-ai-edge-litert = { group = "com.google.ai.edge.litert", name = "litert", version.ref = "googleAiEdgeLitert" }
+google-ai-edge-litert-gpu = { group = "com.google.ai.edge.litert", name = "litert-gpu", version.ref = "googleAiEdgeLitert" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
