@@ -53,6 +53,8 @@ $$Autonomy = (1 - \frac{\text{Interventions} \times 6}{\text{Elapsed Time}}) \ti
 4.  Connect an Android device (Developer Mode enabled) or use an Emulator.
 5.  Run `Run 'app'`.
 
+NOTE: Test videos not included due to size limits.
+
 ## 👤 Author
 **Brandyn Ewanek**
 * [LinkedIn](https://www.linkedin.com/in/brandyn-ewanek-9733873b/)
